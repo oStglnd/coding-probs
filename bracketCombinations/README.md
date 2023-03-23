@@ -8,6 +8,4 @@ Write a function that takes an integer as input, e.g. `2`, `3`, or `5`, and retu
 
 ## Solutions
 
-<ul>
-  <li>[First solution](https://github.com/oStglnd/coding-probs/tree/main/bracketCombinations/bracketCombinations.py)</li>
-</ul>
+[First solution](https://github.com/oStglnd/coding-probs/tree/main/bracketCombinations/bracketCombinations.py)
