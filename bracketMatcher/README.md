@@ -9,5 +9,5 @@ Write a function that takes a string as input, e.g. `(coder)(byte)`, `((leetCode
 ## Solutions
 
 <ul>
-  <li>[First solution](https://github.com/oStglnd/coding-probs/tree/main/bracketMatcher/bracketMatcher.py</li>)
+  <li> [First solution](https://github.com/oStglnd/coding-probs/tree/main/bracketMatcher/bracketMatcher.py</li>)
 </ul>
