@@ -3,7 +3,7 @@
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 k = 4
 
-def arrayRotate(arr, k):
+def arrayRotate(arr: list, k: int) -> list:
     # assert that k is non-negative
     assert k >= 0
     

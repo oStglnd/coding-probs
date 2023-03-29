@@ -4,7 +4,7 @@ import math
 inputNum = 3
 inputNum = 7
 
-def catalanNum(n):
+def catalanNum(n: int) -> int:
     if (n == 0) | (n == 1):
         return 1
     
@@ -15,6 +15,5 @@ def catalanNum(n):
             
         return math.ceil(catNum)
     
-def bracketCombinations(n):
-    
+def bracketCombinations(n: int) -> int:
     return catalanNum(n)

@@ -3,8 +3,7 @@ tree1 = ["(1,2)", "(2,4)", "(5,7)", "(7,2)", "(9,5)"]
 tree2 = ["(1,2)", "(3,2)", "(2,12)", "(5,2)"]
 tree3 = ["(2,3)", "(4,3)", "(5,4)", "(1,2)", "(7,4)", "(8,2)"]
 
-
-def numOccurence(L):
+def numOccurence(L: list) -> int:
     
     maxCount = 0
     for idx, elem in enumerate(L[:-1]):    
@@ -17,7 +16,7 @@ def numOccurence(L):
     return maxCount
     
 
-def treeCheck(tree):
+def treeCheck(tree: list) -> bool:
     
     parents = [pair.split(',')[-1][0] for pair in tree]
     children = [pair.split(',')[0][-1] for pair in tree]
@@ -26,7 +25,3 @@ def treeCheck(tree):
     childrenCheck = numOccurence(children) < 2
     
     return bool(parentsCheck * childrenCheck)
-
-print(treeCheck(tree1))
-print(treeCheck(tree2))
-print(treeCheck(tree3))

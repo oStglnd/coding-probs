@@ -3,7 +3,7 @@ strArr1 = ["hellocat", "apple,bat,cat,goodbye,hello,yellow,why"]
 strArr2 = ["bananaman", "man,woman,dog,apple,banana,blue"]
 strArr3 = ["caterpillar", "cat,pillar,dog,fly,shoes,red"]
 
-def wordChecker(strArr):
+def wordChecker(strArr: list) -> str:
     
     doubleWord = strArr[0]
     csvList = strArr[-1].split(',')

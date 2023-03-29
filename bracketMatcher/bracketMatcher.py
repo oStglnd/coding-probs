@@ -2,7 +2,7 @@
 
 inputStr = "(coder)(byte))"
 
-def bracketMatch(inputStr):
+def bracketMatch(inputStr: str) -> bool:
     
     counter = 0
     

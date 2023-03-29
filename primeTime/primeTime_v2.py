@@ -4,7 +4,8 @@ input2 = 110
 input3 = 256
 input4 = 797
 
-def primeTimeSimple(inputInt):
+def primeTimeSimple(inputInt: int) -> bool:
+    
     if inputInt == 0 or inputInt == 1:
         return True
     else:
