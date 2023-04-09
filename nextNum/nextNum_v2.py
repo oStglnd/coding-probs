@@ -24,13 +24,13 @@ def nextNum(num: int) -> int:
     # find the LAST occurence of "decreasing" digits from LEFT
     rightIdx = 0
     for idx in range(1, n):
-        if digitList[idx-1] > digitList[idx]:
+        if digitList[idx-1] >= digitList[idx]:
             rightIdx = idx
 
     # swap nums
     digitList[rightIdx], digitList[leftIdx] = digitList[leftIdx], digitList[rightIdx]
-
-    # FLIP tail
+    
+    # FLIP ta il IF idxs not adjacent
     digitList = digitList[:leftIdx+1] + digitList[leftIdx+1:][::-1]
 
-    return digitList
+    return int(''.join([str(i) for i in digitList]))

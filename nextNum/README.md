@@ -9,4 +9,6 @@ Write a function that takes an integer number as an input and then inputs the ne
 ## Solutions
 
 [First solution (INCORRECT)](https://github.com/oStglnd/coding-probs/tree/main/nextNum/nextNum.py)
-[Second solution](https://github.com/oStglnd/coding-probs/tree/main/nextNum/nextNum_v2.py)
+[Second solution (INCORRECT)](https://github.com/oStglnd/coding-probs/tree/main/nextNum/nextNum_v2.py)
+
+[Third solution (CORRECT)](https://github.com/oStglnd/coding-probs/tree/main/nextNum/nextNum_v3.py)
