@@ -9,3 +9,4 @@ Write a function that takes as input a string, `s`, and a an array of strings, `
 ## Solutions
 
 [First solution](https://github.com/oStglnd/coding-probs/tree/main/substringConcat/substringConcat.py)
+[Second solution](https://github.com/oStglnd/coding-probs/tree/main/substringConcat/substringConcat_v2.py)
